@@ -1,0 +1,5 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+  <prescription type="service" sender="any" class="com.tencent.android.tpush.service.XGPushServiceV3" />
+  <prescription type="service" sender="any" class="com.jingdong.jdpush_new.JDSPushService" />
+  <prescription type="service" sender="any" class="com.qihoo360.replugin.component.service.service.PluginPitServiceGuard" />
+</prescriptions>
