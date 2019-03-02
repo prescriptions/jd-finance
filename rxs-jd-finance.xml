@@ -1,0 +1,37 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v1">
+  <prescription xmlns="http://greenify.github.io/schemas/prescription/v3" type="service" sender="any">
+    <intent-filter>
+      <action name="com.jingdong.jdpush_new.JDSPushService" />
+    </intent-filter>
+    <intent-filter>
+      <action name="com.jd.jrapp.push.MessageService" />
+    </intent-filter>
+    <intent-filter>
+      <action name="com.meizu.cloud.pushsdk.NotificationService" />
+    </intent-filter>
+    <intent-filter>
+      <action name="com.xiaomi.mipush.sdk.PushMessageHandler" />
+    </intent-filter>
+    <intent-filter>
+      <action name="com.coloros.mcssdk.PushService" />
+    </intent-filter>
+    <intent-filter>
+      <action name="com.tencent.android.tpush.service.XGPushServiceV3" />
+    </intent-filter>
+    <intent-filter>
+      <action name="com.tencent.android.tpush.rpc.XGRemoteService" />
+    </intent-filter>
+    <intent-filter>
+      <action name="com.xiaomi.push.service.XMJobService" />
+    </intent-filter>
+    <intent-filter>
+      <action name="com.xiaomi.push.service.XMPushService" />
+    </intent-filter>
+    <intent-filter>
+      <action name="com.jd.jrapp.library.plugin.debug.DebuggerService" />
+    </intent-filter>
+    <intent-filter>
+      <action name="com.robile.push.JDPushService" />
+    </intent-filter>
+  </prescription>
+</prescriptions>
